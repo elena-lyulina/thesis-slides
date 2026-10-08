@@ -1,0 +1,2634 @@
+{
+  "source": "master-thesis/4-experimentsandresults.tex",
+  "sha256": "987a1f8dbfa05eab01fd2c6efa1a32a75ff22ec123e409b4cfe4f53331a49cf7",
+  "tables": {
+    "loss": {
+      "full": {
+        "model": "full",
+        "label": "Full Attention",
+        "values": [
+          "2.383"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa256": {
+        "model": "swa256",
+        "label": "Sliding Window 256",
+        "values": [
+          "2.421"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa": {
+        "model": "swa",
+        "label": "Sliding Window 1,024",
+        "values": [
+          "2.391"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa4096": {
+        "model": "swa4096",
+        "label": "Sliding Window 4,096",
+        "values": [
+          "2.382"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "sink": {
+        "model": "sink",
+        "label": "Sink Attention",
+        "values": [
+          "2.383"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gated": {
+        "model": "gated",
+        "label": "Gated Attention",
+        "values": [
+          "2.372"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "mla": {
+        "model": "mla",
+        "label": "Multi-head Latent Attention",
+        "values": [
+          "2.385"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdn": {
+        "model": "gdn",
+        "label": "Gated DeltaNet",
+        "values": [
+          "2.394"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "kda": {
+        "model": "kda",
+        "label": "Kimi Delta Attention",
+        "values": [
+          "2.335"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "qwen": {
+        "model": "qwen",
+        "label": "Qwen3-Next",
+        "values": [
+          "2.358"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gemma": {
+        "model": "gemma",
+        "label": "Gemma 3",
+        "values": [
+          "2.383"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdnold": {
+        "model": "gdnold",
+        "label": "Gated DeltaNet, default",
+        "values": [
+          "2.421"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns0": {
+        "model": "gdns0",
+        "label": "Gated DeltaNet, sequence resets",
+        "values": [
+          "2.421"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns05": {
+        "model": "gdns05",
+        "label": "Gated DeltaNet, random sequence resets",
+        "values": [
+          "2.421"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns1": {
+        "model": "gdns1",
+        "label": "Gated DeltaNet, no resets",
+        "values": [
+          "2.429"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      }
+    },
+    "benchmarks": {
+      "full": {
+        "model": "full",
+        "label": "Full Attention",
+        "values": [
+          "31.6",
+          "46.5",
+          "68.9",
+          "65.1",
+          "29.5",
+          "52.6",
+          "86.3"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa256": {
+        "model": "swa256",
+        "label": "Sliding Window 256",
+        "values": [
+          "30.2",
+          "46.9",
+          "68.3",
+          "62.9",
+          "30.4",
+          "52.3",
+          "87.9"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa": {
+        "model": "swa",
+        "label": "Sliding Window 1,024",
+        "values": [
+          "29.5",
+          "46.7",
+          "68.9",
+          "64.4",
+          "28.2",
+          "52.1",
+          "87.6"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa4096": {
+        "model": "swa4096",
+        "label": "Sliding Window 4,096",
+        "values": [
+          "32.5",
+          "46.5",
+          "68.6",
+          "63.9",
+          "30.4",
+          "54.0",
+          "87.0"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "sink": {
+        "model": "sink",
+        "label": "Sink Attention",
+        "values": [
+          "31.4",
+          "46.4",
+          "69.2",
+          "63.8",
+          "28.9",
+          "52.9",
+          "87.6"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gated": {
+        "model": "gated",
+        "label": "Gated Attention",
+        "values": [
+          "29.7",
+          "46.5",
+          "70.2",
+          "65.5",
+          "29.1",
+          "53.1",
+          "87.8"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "mla": {
+        "model": "mla",
+        "label": "Multi-head Latent Attention",
+        "values": [
+          "32.1",
+          "46.5",
+          "68.3",
+          "64.5",
+          "29.4",
+          "52.1",
+          "88.0"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdn": {
+        "model": "gdn",
+        "label": "Gated DeltaNet",
+        "values": [
+          "29.5",
+          "46.5",
+          "70.3",
+          "64.5",
+          "29.4",
+          "51.5",
+          "87.2"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdnold": {
+        "model": "gdnold",
+        "label": "Gated DeltaNet, default",
+        "values": [
+          "27.8",
+          "45.3",
+          "68.6",
+          "63.0",
+          "28.4",
+          "52.5",
+          "87.1"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns0": {
+        "model": "gdns0",
+        "label": "Gated DeltaNet, sequence resets",
+        "values": [
+          "20.6",
+          "45.2",
+          "68.1",
+          "60.8",
+          "27.9",
+          "51.4",
+          "84.6"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns05": {
+        "model": "gdns05",
+        "label": "Gated DeltaNet, random sequence resets",
+        "values": [
+          "20.4",
+          "44.1",
+          "68.3",
+          "60.4",
+          "26.8",
+          "50.3",
+          "83.6"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns1": {
+        "model": "gdns1",
+        "label": "Gated DeltaNet, no resets",
+        "values": [
+          "22.5",
+          "44.5",
+          "69.3",
+          "62.8",
+          "27.7",
+          "49.7",
+          "85.1"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "kda": {
+        "model": "kda",
+        "label": "Kimi Delta Attention",
+        "values": [
+          "35.9",
+          "49.3",
+          "70.4",
+          "68.2",
+          "32.1",
+          "53.8",
+          "88.4"
+        ],
+        "marks": [
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "qwen": {
+        "model": "qwen",
+        "label": "Qwen3-Next",
+        "values": [
+          "30.8",
+          "47.7",
+          "69.6",
+          "65.4",
+          "30.9",
+          "52.6",
+          "86.4"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gemma": {
+        "model": "gemma",
+        "label": "Gemma 3",
+        "values": [
+          "30.1",
+          "46.6",
+          "68.9",
+          "64.7",
+          "29.0",
+          "54.0",
+          "86.1"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": true
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "pythia": {
+        "model": "pythia",
+        "label": "Pythia-1.4B, 44B tokens",
+        "values": [
+          "49.3",
+          "41.0",
+          "67.4",
+          "51.9",
+          "21.2",
+          "51.3",
+          "82.6"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "llama": {
+        "model": "llama",
+        "label": "Llama-3.2-1B, up to 9T tokens",
+        "values": [
+          "62.2",
+          "64.2",
+          "75.4",
+          "66.4",
+          "31.4",
+          "60.5",
+          "93.6"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          }
+        ]
+      }
+    },
+    "perplexity": {
+      "full": {
+        "model": "full",
+        "label": "Full Attention",
+        "values": [
+          "25.7",
+          "1.835",
+          "113.1",
+          "2.322",
+          "40.3",
+          "1.805"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa256": {
+        "model": "swa256",
+        "label": "Sliding Window 256",
+        "values": [
+          "33.7",
+          "1.931",
+          "215.0",
+          "2.603",
+          "46.5",
+          "1.847"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa": {
+        "model": "swa",
+        "label": "Sliding Window 1,024",
+        "values": [
+          "31.4",
+          "1.906",
+          "154.4",
+          "2.454",
+          "42.5",
+          "1.820"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa4096": {
+        "model": "swa4096",
+        "label": "Sliding Window 4,096",
+        "values": [
+          "27.6",
+          "1.860",
+          "119.7",
+          "2.346",
+          "40.4",
+          "1.806"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "sink": {
+        "model": "sink",
+        "label": "Sink Attention",
+        "values": [
+          "26.3",
+          "1.843",
+          "119.3",
+          "2.344",
+          "40.2",
+          "1.804"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gated": {
+        "model": "gated",
+        "label": "Gated Attention",
+        "values": [
+          "23.6",
+          "1.806",
+          "116.4",
+          "2.334",
+          "39.6",
+          "1.800"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "mla": {
+        "model": "mla",
+        "label": "Multi-head Latent Attention",
+        "values": [
+          "22.4",
+          "1.789",
+          "115.1",
+          "2.329",
+          "40.2",
+          "1.804"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdn": {
+        "model": "gdn",
+        "label": "Gated DeltaNet",
+        "values": [
+          "34.5",
+          "1.939",
+          "138.5",
+          "2.407",
+          "42.3",
+          "1.819"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdnold": {
+        "model": "gdnold",
+        "label": "Gated DeltaNet, default",
+        "values": [
+          "33.0",
+          "1.923",
+          "130.5",
+          "2.382",
+          "44.2",
+          "1.832"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns0": {
+        "model": "gdns0",
+        "label": "Gated DeltaNet, sequence resets",
+        "values": [
+          "30.1",
+          "1.890",
+          "128.0",
+          "2.374",
+          "44.3",
+          "1.832"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns05": {
+        "model": "gdns05",
+        "label": "Gated DeltaNet, random sequence resets",
+        "values": [
+          "27.0",
+          "1.853",
+          "150.1",
+          "2.442",
+          "44.4",
+          "1.833"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns1": {
+        "model": "gdns1",
+        "label": "Gated DeltaNet, no resets",
+        "values": [
+          "25.0",
+          "1.826",
+          "147.9",
+          "2.436",
+          "44.8",
+          "1.836"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "kda": {
+        "model": "kda",
+        "label": "Kimi Delta Attention",
+        "values": [
+          "20.7",
+          "1.762",
+          "81.9",
+          "2.192",
+          "38.2",
+          "1.790"
+        ],
+        "marks": [
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "qwen": {
+        "model": "qwen",
+        "label": "Qwen3-Next",
+        "values": [
+          "32.4",
+          "1.917",
+          "88.4",
+          "2.222",
+          "38.9",
+          "1.795"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gemma": {
+        "model": "gemma",
+        "label": "Gemma 3",
+        "values": [
+          "33.3",
+          "1.926",
+          "138.5",
+          "2.407",
+          "40.7",
+          "1.808"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "pythia": {
+        "model": "pythia",
+        "label": "Pythia-1.4B, 44B tokens",
+        "values": [
+          "19.7",
+          "1.746",
+          "49.6",
+          "2.005",
+          "55.4",
+          "1.899"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "llama": {
+        "model": "llama",
+        "label": "Llama-3.2-1B, up to 9T tokens",
+        "values": [
+          "12.0",
+          "1.591",
+          "31.2",
+          "1.846",
+          "26.6",
+          "1.689"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          }
+        ]
+      }
+    },
+    "degeneration": {
+      "full": {
+        "model": "full",
+        "label": "Full Attention",
+        "values": [
+          "165.3",
+          "0.229",
+          "65.8",
+          "0.220"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa256": {
+        "model": "swa256",
+        "label": "Sliding Window 256",
+        "values": [
+          "412.4",
+          "0.505",
+          "71.2",
+          "0.212"
+        ],
+        "marks": [
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa": {
+        "model": "swa",
+        "label": "Sliding Window 1,024",
+        "values": [
+          "283.9",
+          "0.392",
+          "63.9",
+          "0.218"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "swa4096": {
+        "model": "swa4096",
+        "label": "Sliding Window 4,096",
+        "values": [
+          "216.1",
+          "0.273",
+          "67.1",
+          "0.226"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "sink": {
+        "model": "sink",
+        "label": "Sink Attention",
+        "values": [
+          "205.1",
+          "0.286",
+          "73.0",
+          "0.229"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gated": {
+        "model": "gated",
+        "label": "Gated Attention",
+        "values": [
+          "214.0",
+          "0.283",
+          "75.1",
+          "0.231"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "mla": {
+        "model": "mla",
+        "label": "Multi-head Latent Attention",
+        "values": [
+          "167.0",
+          "0.243",
+          "83.6",
+          "0.232"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdn": {
+        "model": "gdn",
+        "label": "Gated DeltaNet",
+        "values": [
+          "252.9",
+          "0.317",
+          "69.5",
+          "0.185"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdnold": {
+        "model": "gdnold",
+        "label": "Gated DeltaNet, default",
+        "values": [
+          "220.9",
+          "0.278",
+          "63.6",
+          "0.192"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns0": {
+        "model": "gdns0",
+        "label": "Gated DeltaNet, sequence resets",
+        "values": [
+          "185.5",
+          "0.231",
+          "64.3",
+          "0.189"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns05": {
+        "model": "gdns05",
+        "label": "Gated DeltaNet, random sequence resets",
+        "values": [
+          "232.4",
+          "0.289",
+          "63.9",
+          "0.187"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gdns1": {
+        "model": "gdns1",
+        "label": "Gated DeltaNet, no resets",
+        "values": [
+          "246.0",
+          "0.286",
+          "64.6",
+          "0.188"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "kda": {
+        "model": "kda",
+        "label": "Kimi Delta Attention",
+        "values": [
+          "100.1",
+          "0.160",
+          "76.4",
+          "0.212"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "qwen": {
+        "model": "qwen",
+        "label": "Qwen3-Next",
+        "values": [
+          "117.2",
+          "0.151",
+          "84.0",
+          "0.228"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": true,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": true,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "gemma": {
+        "model": "gemma",
+        "label": "Gemma 3",
+        "values": [
+          "244.8",
+          "0.376",
+          "70.2",
+          "0.222"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          }
+        ]
+      },
+      "llama": {
+        "model": "llama",
+        "label": "Llama-3.2-1B, up to 9T tokens",
+        "values": [
+          "76.7",
+          "0.193",
+          "94.5",
+          "0.276"
+        ],
+        "marks": [
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": false,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          },
+          {
+            "best": false,
+            "worst": false,
+            "framed": true,
+            "muted": false
+          }
+        ]
+      }
+    }
+  }
+}

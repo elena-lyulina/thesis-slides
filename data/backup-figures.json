@@ -1,0 +1,25 @@
+{
+  "dataset": {
+    "FineWeb-Edu": {
+      "documents": 40342565,
+      "document_mean": 992.4719812188441,
+      "packed_parts": 45224954,
+      "packed_part_mean": 885.3232466306101,
+      "longer_than_sequence": 327193
+    },
+    "Gutenberg": {
+      "documents": 337260,
+      "document_mean": 8192.0,
+      "packed_parts": 337251,
+      "packed_part_mean": 8192.0,
+      "longer_than_sequence": 0
+    }
+  },
+  "sources": "Thesis appendix figures and attn_bench/notebooks/thesis.ipynb, cells 20\u201322 and 113",
+  "position_nll_smoothing": 513,
+  "generation_prefix_tokens": 500,
+  "generation_suffix_tokens": 1000,
+  "documents_per_corpus": 660,
+  "ttr_window": 100,
+  "ttr_step": 25
+}
